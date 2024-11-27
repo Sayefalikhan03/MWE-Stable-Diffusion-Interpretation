@@ -76,16 +76,50 @@ The Jupyter Notebook contains all the code necessary for:
 
 ### Generated Images and Visualizations
 
-This section includes visual examples of the model's outputs for selected MWEs.
+#### Example 1: President Barack Obama - "Hard Pressed"
 
-#### Example:
-1. **Generated Image for "Spill the Beans"**:
-   ![Generated Image for "Spill the Beans"](images/spill_the_beans_image.png)
+The generated image depicts President Barack Obama in a formal setting, reflecting the semantic context of being "hard pressed" in a political scenario.
 
-2. **DAAM Heatmap Overlay**:
-   ![DAAM Heatmap for "Spill the Beans"](images/spill_the_beans_heatmap.png)
+<img src="https://github.com/Sayefalikhan03/MWE-Stable-Diffusion-Interpretation/blob/main/Generated%20Image.png" alt="President Barack Obama - Generated Image" width="300"/>
+
+#### DAAM Heatmap Overlay for "Hard Pressed"
+
+<img src="https://github.com/Sayefalikhan03/MWE-Stable-Diffusion-Interpretation/blob/main/Attention%20map.png" alt="DAAM Heatmap - Hard Pressed" width="300"/>
 
 ---
+
+#### Example 2: "Spill the Beans"
+
+This example captures the idiomatic expression "Spill the Beans." The original image shows a person nervously spilling beans, symbolizing revealing a secret. The DAAM overlay highlights the model’s attention to the beans and the context of the action.
+
+##### Original Image:
+<img src="https://github.com/Sayefalikhan03/MWE-Stable-Diffusion-Interpretation/blob/main/original_image.png" alt="Spill the Beans - Original Image" width="300"/>
+
+##### DAAM Heatmap Overlay:
+<img src="https://github.com/Sayefalikhan03/MWE-Stable-Diffusion-Interpretation/blob/main/image_with_overlay.png" alt="Spill the Beans - DAAM Overlay" width="300"/>
+
+## Dependencies
+
+### Python Libraries
+- **torch**: PyTorch for Stable Diffusion.
+- **transformers**: Hugging Face library for model loading.
+- **cv2**: OpenCV for image processing.
+- **matplotlib**: Visualization of heatmaps and outputs.
+- **pandas**: Dataset handling.
+
+### Environment
+- **Google Colab (recommended)**: Provides a GPU-powered environment for running the notebook.
+
+## Acknowledgments
+This repository relies on the following resources:
+- **[MWE-CWI Dataset](https://github.com/ekochmar/MWE-CWI/blob/master/final_MWE_dataset.tsv)**: A publicly available dataset for identifying and evaluating multi-word expressions (MWEs).
+- **[Stable Diffusion](https://stability.ai/)**: A cutting-edge latent diffusion model by Stability AI and Hugging Face.
+- **DAAM**: A visualization tool for attention attribution in diffusion models.
+
+## License
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+
 
 ## Setup and Usage
 
