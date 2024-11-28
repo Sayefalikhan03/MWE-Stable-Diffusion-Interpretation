@@ -76,15 +76,32 @@ The Jupyter Notebook contains all the code necessary for:
 
 ### Generated Images and Visualizations
 
-#### Example 1: President Barack Obama - "Hard Pressed"
+#### Example 1: President Barack Obama
 
-The generated image depicts President Barack Obama in a formal setting, reflecting the semantic context of being "hard pressed" in a political scenario.
+Visual Comparisons for the word: “President Barack Obama”
+Prompt Details
+•	Genre: News
+•	Complex Probabilistic Score: 0.45
+•	Expression: “President Barack Obama”
+•	Context:
+“Outgoing US President Barack Obama authorised the move in response to Russian intervention in Ukraine in 2014, in which Crimea was annexed.”
+•	Generated Prompt:
+“Outgoing US President Barack Obama stands in a solemn setting, authorizing a strategic response to Russia's 2014 intervention in Ukraine, where Crimea was annexed. The scene captures Obama's decisive expression amid a backdrop of geopolitical tension.”
 
-<img src="https://github.com/Sayefalikhan03/MWE-Stable-Diffusion-Interpretation/blob/main/Generated%20Image.png" alt="President Barack Obama - Generated Image" width="300"/>
 
-#### DAAM Heatmap Overlay for "Hard Pressed"
+<img src="https://github.com/Sayefalikhan03/MWE-Stable-Diffusion-Interpretation/blob/main/President%20Barack%20Obama.png" alt="President Barack Obama - Generated Image" width="300"/>
 
-<img src="https://github.com/Sayefalikhan03/MWE-Stable-Diffusion-Interpretation/blob/main/Attention%20map.png" alt="DAAM Heatmap - Hard Pressed" width="300"/>
+#### DAAM Overlay for "President Barack Obama"
+
+<img src="https://github.com/Sayefalikhan03/MWE-Stable-Diffusion-Interpretation/blob/main/Barack%20Obama%20overlay.png" alt="DAAM Overlay President Barack Obama" width="300"/>
+
+#### DAAM Heatmap for "President Barack Obama"
+
+<img src="https://github.com/Sayefalikhan03/MWE-Stable-Diffusion-Interpretation/blob/main/President%20Barack%20Obama%20Heatmap" alt="DAAM Heatmap President Barack Obama" width="300"/>
+
+#### Mask for Comparison
+
+<img src="https://github.com/Sayefalikhan03/MWE-Stable-Diffusion-Interpretation/blob/main/Mask" alt="Mask" width="800"/>
 
 ---
 
@@ -95,7 +112,7 @@ This example captures the idiomatic expression "Spill the Beans." The original i
 ##### Original Image:
 <img src="https://github.com/Sayefalikhan03/MWE-Stable-Diffusion-Interpretation/blob/main/original_image.png" alt="Spill the Beans - Original Image" width="300"/>
 
-##### DAAM Heatmap Overlay:
+#### DAAM Heatmap Overlay:
 <img src="https://github.com/Sayefalikhan03/MWE-Stable-Diffusion-Interpretation/blob/main/image_with_overlay.png" alt="Spill the Beans - DAAM Overlay" width="300"/>
 
 ## Dependencies
